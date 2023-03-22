@@ -1,13 +1,22 @@
-# Sample Hardhat Project
+# HERO NFTS
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+## PREMIER LEAGUE PLAYERS
+
+This is a test project for GameOn.
 
 Try running some of the following tasks:
 
 ```shell
 npx hardhat help
-npx hardhat test
+npx hardhat test <--- Several tests have been written
 REPORT_GAS=true npx hardhat test
 npx hardhat node
-npx hardhat run scripts/deploy.ts
+npx hardhat run --network mumbai scripts/deploy.ts <--- Add env for deployment
 ```
+env sample
+
+INFURA_PROJECT_ID=
+ETHERSCAN_API_KEY=
+PRIVATE_KEY=
+REPORT_GAS=
+coinMarketCap_API=
