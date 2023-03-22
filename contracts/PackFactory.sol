@@ -10,16 +10,10 @@ contract HeroFactory is HeroContract, Ownable {
     // Randomness helper
     uint256 public randNonce = 1;
 
-    /// @dev rarity score
-    uint256[4] public rarityScores = [20, 30, 50];
-
     // Price un Fantom and rewardson STRN
     uint256 public price;
-    uint256 public rewardPerNFT;
-    uint256 public rewardPerStage;
 
     // Staking Contract and Treasury of this Factory
-    address public stakingContractAddr;
     address public treasuryAddr;
 
     // Minting Limits (Global, Per Tx and Per Wallet)
