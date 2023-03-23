@@ -3,6 +3,8 @@
 ## PREMIER LEAGUE PLAYERS
 
 This is a test project for GameOn.
+Contract is deployed and verified on mumbai:
+https://mumbai.polygonscan.com/address/0x4aBDec64F601f0848BEf93EBd537b9E392955bF1
 
 Try running some of the following tasks:
 
